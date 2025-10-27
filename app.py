@@ -33,7 +33,6 @@ docsearch = PineconeVectorStore.from_existing_index(
 
 
 
-
 retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":3})
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite")

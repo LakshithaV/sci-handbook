@@ -1,16 +1,12 @@
 
-langchain-pinecone==0.2.8
-sentence-transformers==4.1.0
 pypdf==5.6.1
 flask==3.1.1
-python-dotenv==1.1.0
-
-
-     
+sentence-transformers==4.1.0
+python-dotenv==1.1.0   
 langchain 
 langchain_google_genai 
 langchain-core 
 langchain_community
-
+langchain-pinecone==0.2.8
 
 -e .
